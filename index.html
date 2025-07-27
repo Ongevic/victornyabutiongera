@@ -30,6 +30,12 @@
             border-radius: 50%;
             object-fit: cover;
         }
+        .profile-content h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
         .section-title {
             font-size: 1.5rem;
             font-weight: 600;
@@ -97,7 +103,10 @@
         @media (max-width: 768px) {
             .profile-section {
                 grid-template-columns: 1fr;
-                text-align: center;
+                text-align: left;
+            }
+            .profile-content h1 {
+                text-align: left;
             }
             .nav-menu {
                 position: static;
@@ -126,8 +135,8 @@
     <div class="academic-container">
         <!-- Profile Section -->
         <div class="profile-section">
-            <div>
-                <h1 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">Victor Nyabutiongera</h1>
+            <div class="profile-content">
+                <h1>Victor Nyabutiongera</h1>
                 
                 <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">
                     I'm a PhD Candidate in Linguistics at <strong>University Name</strong> under the supervision of Prof. [Supervisor Name].
