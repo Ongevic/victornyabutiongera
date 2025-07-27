@@ -1,0 +1,78 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { template } from '../settings'
+import { cv } from '../data/cv'
+---
+
+<Layout title={`About - ${template.person.name}`}>
+<div class='container mx-auto px-4 py-16'>
+<div class='max-w-4xl mx-auto'>
+<div class='text-center mb-12'>
+<div class='avatar mb-8'>
+<div class='w-40 h-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2'>
+<img src='/profile-placeholder.jpg' alt={`${template.person.name} profile photo`} />
+</div>
+</div>
+<h1 class='text-4xl font-bold mb-4'>{template.person.name}</h1>
+<p class='text-xl text-base-content/70 mb-2'>{template.person.title}</p>
+<p class='text-lg text-base-content/60'>{template.person.affiliation}</p>
+</div>
+
+<div class='prose lg:prose-xl mx-auto mb-12'>
+<p class='text-lg leading-relaxed'>
+{template.person.bio}
+</p>
+</div>
+
+<!-- Education Section -->
+<div class='mb-12'>
+<h2 class='text-3xl font-bold mb-8 text-center'>Education</h2>
+<div class='space-y-6'>
+{
+cv.education.map((edu) => (
+<div class='card bg-base-200 shadow-lg'>
+<div class='card-body'>
+<h3 class='card-title text-primary'>{edu.degree}</h3>
+<p class='text-lg font-semibold'>{edu.institution}</p>
+<p class='text-base-content/70'>{edu.year}</p>
+<p class='mt-2'>{edu.description}</p>
+</div>
+</div>
+))
+}
+</div>
+</div>
+
+<!-- Experience Section -->
+<div class='mb-12'>
+<h2 class='text-3xl font-bold mb-8 text-center'>Experience</h2>
+<div class='space-y-6'>
+{
+cv.experiences.map((exp) => (
+<div class='card bg-base-200 shadow-lg'>
+<div class='card-body'>
+<h3 class='card-title text-primary'>{exp.title}</h3>
+<p class='text-lg font-semibold'>{exp.company}</p>
+<p class='text-base-content/70'>{exp.year}</p>
+<p class='mt-2'>{exp.description}</p>
+</div>
+</div>
+))
+}
+</div>
+</div>
+
+<!-- Skills Section -->
+<div class='mb-12'>
+<h2 class='text-3xl font-bold mb-8 text-center'>Skills & Expertise</h2>
+<div class='flex flex-wrap justify-center gap-4'>
+{
+cv.skills.map((skill) => (
+<div class='badge badge-primary badge-lg p-4'>{skill}</div>
+))
+}
+</div>
+</div>
+</div>
+</div>
+</Layout>

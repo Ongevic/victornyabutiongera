@@ -1,0 +1,100 @@
+---
+const themes = ["coffee", "lemonade"];
+---
+
+<div class="dropdown dropdown-end">
+  <div tabindex="0" role="button" class="btn btn-ghost m-1">
+    <svg
+      width="20"
+      height="20"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      class="inline-block h-5 w-5 stroke-current md:h-6 md:w-6"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v6a4 4 0 004 4h4a2 2 0 002-2V5z"
+      ></path>
+    </svg>
+    <svg
+      width="12"
+      height="12"
+      class="ml-2 hidden h-2 w-2 fill-current opacity-60 sm:inline-block"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 2048 2048"
+    >
+      <path d="m1799 349 242 241-1017 1017L7 590l242-241 775 775 775-775z"
+      ></path>
+    </svg>
+  </div>
+  <div
+    tabindex="0"
+    class="dropdown-content bg-base-200 text-base-content rounded-box top-px w-52 max-h-96 overflow-y-auto shadow-2xl"
+  >
+    <div class="grid grid-cols-1 gap-3 p-3">
+      {
+        themes.map((theme) => (
+          <div
+            class="outline-base-content overflow-hidden rounded-lg outline-2 outline-offset-2"
+            data-set-theme={theme}
+            data-act-class="outline"
+          >
+            <div
+              data-theme={theme}
+              class="bg-base-100 text-base-content w-full cursor-pointer font-sans"
+            >
+              <div class="grid grid-cols-5 grid-rows-3">
+                <div class="col-span-5 row-span-3 row-start-1 flex gap-1 py-3 px-4">
+                  <div class="flex-grow text-sm font-bold">{theme}</div>
+                  <div class="flex flex-shrink-0 flex-wrap gap-1">
+                    <div class="bg-primary w-2 rounded" />
+                    <div class="bg-secondary w-2 rounded" />
+                    <div class="bg-accent w-2 rounded" />
+                    <div class="bg-neutral w-2 rounded" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<script>
+  // Initialize theme selector
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get all theme selector buttons
+    const themeButtons = document.querySelectorAll("[data-set-theme]");
+
+    themeButtons.forEach((button) => {
+      button.addEventListener("click", function (this: Element) {
+        const theme = this.getAttribute("data-set-theme");
+        if (theme) {
+          document.documentElement.setAttribute("data-theme", theme);
+          localStorage.setItem("theme", theme);
+        }
+      });
+    });
+  });
+
+  // Re-initialize after Astro view transitions
+  document.addEventListener("astro:after-swap", () => {
+    // Get all theme selector buttons
+    const themeButtons = document.querySelectorAll("[data-set-theme]");
+
+    themeButtons.forEach((button) => {
+      button.addEventListener("click", function (this: Element) {
+        const theme = this.getAttribute("data-set-theme");
+        if (theme) {
+          document.documentElement.setAttribute("data-theme", theme);
+          localStorage.setItem("theme", theme);
+        }
+      });
+    });
+  });
+</script>

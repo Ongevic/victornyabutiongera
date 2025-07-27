@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Development Server",
+			"type": "shell",
+			"command": "wsl",
+			"args": ["cd", "/mnt/c/Users/chich/website", "&&", "npm", "run", "dev"],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

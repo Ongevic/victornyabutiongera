@@ -1,0 +1,44 @@
+---
+import { cv } from "../data/cv";
+
+// Get the first 3 publications for preview
+const recentPublications = cv.publications.slice(0, 3);
+---
+
+<div class="py-16 bg-base-200">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Recent Publications</h2>
+    <div class="space-y-6 max-w-4xl mx-auto">
+      {
+        recentPublications.map((pub) => (
+          <div class="card bg-base-100 shadow-lg">
+            <div class="card-body">
+              <h3 class="card-title text-lg">{pub.title}</h3>
+              <p class="text-primary font-medium">{pub.authors}</p>
+              <p class="text-base-content/70">
+                <em>{pub.venue}</em> ({pub.year})
+              </p>
+              {pub.doi && (
+                <div class="card-actions justify-end">
+                  <a
+                    href={`https://doi.org/${pub.doi}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline btn-sm"
+                  >
+                    View Paper
+                  </a>
+                </div>
+              )}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <div class="text-center mt-8">
+      <a href="/publications" class="btn btn-primary btn-lg">
+        View All Publications
+      </a>
+    </div>
+  </div>
+</div>
