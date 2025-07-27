@@ -38,7 +38,6 @@ export const template = {
 	darkTheme: 'synthwave', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
-    base: '/victornyabutiongera/', // Project Pages site
 	person: {
 		name: 'Victor Nyabutiongera',
 		title: 'PhD Candidate in Linguistics',

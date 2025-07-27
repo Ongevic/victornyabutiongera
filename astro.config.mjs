@@ -11,6 +11,5 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
     integrations: [react(), tailwind(), sitemap()],
-    site: 'https://ongevic.github.io',
-    base: '/victornyabutiongera/', // Project Pages site
+    site: 'https://ongevic.github.io/victornyabutiongera',
 });
