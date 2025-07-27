@@ -12,5 +12,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
     integrations: [react(), tailwind(), sitemap()],
     site: 'https://ongevic.github.io',
-    base: '/', // User Pages site - root directory
+    base: '/victornyabutiongera/', // Project Pages site
 });
