@@ -34,8 +34,8 @@ export const template = {
 	website_url: 'https://ongevic.github.io/victornyabutiongera', // Your GitHub Pages URL
 	menu_left: false,
 	transitions: true,
-	lightTheme: 'lemonade', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'coffee', // Select one of the Daisy UI Themes or create your own
+	lightTheme: 'emerald', // Select one of the Daisy UI Themes or create your own
+	darkTheme: 'synthwave', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
     base: '/victornyabutiongera/', // Project Pages site
