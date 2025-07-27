@@ -31,14 +31,14 @@ export const social = {
 }
 
 export const template = {
-	website_url: 'https://ongevic.github.io', // Your GitHub Pages URL
+	website_url: 'https://ongevic.github.io/victornyabutiongera.github.io', // Your GitHub Pages URL
 	menu_left: false,
 	transitions: true,
 	lightTheme: 'lemonade', // Select one of the Daisy UI Themes or create your own
 	darkTheme: 'coffee', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
-    base: '/', // Repository name starting with /
+    base: '/victornyabutiongera.github.io/', // Repository name starting with /
 	person: {
 		name: 'Victor Nyabutiongera',
 		title: 'PhD Candidate in Linguistics',
