@@ -8,8 +8,10 @@ permalink: /contact/
 
 [Home](/)
 [About](/about/)
+[CV](/cv/)
+[Papers](/publications/)
+[Talks & Posters](/talks/)
 [Tutorials](/tutorials/)
-[Publications](/publications/)
 [Contact](/contact/)
 
 </details>
