@@ -6,8 +6,6 @@ permalink: /
 
 <!-- Navigation -->
 <details>
-<summary>Menu</summary>
-
 [Home](/)
 [About](/about/)
 [CV](/cv/)
