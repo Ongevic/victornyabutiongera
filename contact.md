@@ -6,16 +6,6 @@ permalink: /contact/
 <details>
 <summary>Menu</summary>
 
-[Home](/)
-[About](/about/)
-[CV](/cv/)
-[Papers](/publications/)
-[Talks & Posters](/talks/)
-[Tutorials](/tutorials/)
-[Contact](/contact/)
-
-</details>
-
 
 # Contact
 
