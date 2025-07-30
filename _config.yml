@@ -5,6 +5,9 @@ description: >-
 baseurl: ""
 url: ""
 
+minima:
+  skin: auto
+
 # Use the minimal theme for GitHub Pages
 theme: minima
 
