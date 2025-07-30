@@ -6,10 +6,12 @@ permalink: /tutorials/
 
 <details><summary>Menu</summary>
 
-[Home](/)  
-[About](/about/)  
-[Tutorials](/tutorials/)  
-[Publications](/publications/)  
+[Home](/)
+[About](/about/)
+[CV](/cv/)
+[Papers](/publications/)
+[Talks & Posters](/talks/)
+[Tutorials](/tutorials/)
 [Contact](/contact/)
 </details>
 
