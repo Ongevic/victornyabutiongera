@@ -13,7 +13,7 @@ permalink: /contact/
 [Contact](/contact/)
 
 </details>
-(
+
 
 # Contact
 
