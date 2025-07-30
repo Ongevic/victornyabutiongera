@@ -1,0 +1,26 @@
+[
+  {
+    "employer": "Aarhus University",
+    "position": "PhD Researcher",
+    "city": "Aarhus",
+    "start": "2022-01-01",
+    "end": "",
+    "summary": "Conducting research on syntax and semantics of Bantu languages.",
+    "highlights": [
+      "Explored generative syntax frameworks",
+      "Produced cross-linguistic analyses"
+    ]
+  },
+  {
+    "employer": "Bantuland Research Institute",
+    "position": "Research Assistant",
+    "city": "Nairobi",
+    "start": "2020-06-01",
+    "end": "2021-12-31",
+    "summary": "Supported fieldwork and data analysis for language documentation projects.",
+    "highlights": [
+      "Collected and analyzed linguistic data",
+      "Co-authored a paper on morphological alignment"
+    ]
+  }
+]
