@@ -1,0 +1,8 @@
+baseURL = "https://ongevic.github.io/"
+title = "Victor Nyabutiongera - Academic Portfolio"
+theme = "hugo-resume"
+languageCode = "en-us"
+
+[module]
+  [[module.imports]]
+    path = "github.com/eddiewebb/hugo-resume"
