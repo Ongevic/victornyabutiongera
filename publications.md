@@ -3,9 +3,15 @@ title: Publications
 layout: page
 permalink: /publications/
 ---
-<!-- Navigation -->
-[Home](/) | [About](/about/) | [Research](/research/) | [Publications](/publications/) | [Contact](/contact/)
 
-# Publications
+<details>
+<summary>Menu</summary>
+
+[Home](/)
+[About](/about/)
+[Tutorials](/tutorials/)
+[Publications](/publications/)
+[Contact](/contact/)
+</details>
 
 Publication list coming soon...
