@@ -4,17 +4,6 @@ layout: page
 permalink: /
 ---
 
-<!-- Navigation -->
-<details>
-[Home](/)
-[About](/about/)
-[CV](/cv/)
-[Papers](/papers/)
-[Talks & Posters](/talks/)
-[Tutorials](/tutorials/)
-[Publications](/publications/)
-[Contact](/contact/)
-</details>
 
 <!-- Hero Section -->
 ![Victor Nyabutiongera profile photo](profile-placeholder.jpg)
