@@ -6,7 +6,7 @@ baseurl: ""
 url: ""
 
 # Use the minimal theme for GitHub Pages
-remote_theme: jekyll/minimal
+theme: minima
 
 # Build settings
 markdown: kramdown
