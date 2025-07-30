@@ -4,7 +4,6 @@ layout: page
 permalink: /
 ---
 
-
 <!-- Hero Section -->
 ![Victor Nyabutiongera profile photo](profile-placeholder.jpg)
 
