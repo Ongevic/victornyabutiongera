@@ -4,7 +4,18 @@ layout: page
 permalink: /about/
 ---
 <!-- Navigation -->
-[Home](/) | [About](/about/) | [Research](/research/) | [Publications](/publications/) | [Contact](/contact/)
+<
+<details>
+<summary>Menu</summary>
+
+[Home](/)
+[About](/about/)
+[Tutorials](/tutorials/)
+[Publications](/publications/)
+[Contact](/contact/)
+</details>
+
+
 
 ![Victor Nyabutiongera profile photo](profile-placeholder.jpg)
 
