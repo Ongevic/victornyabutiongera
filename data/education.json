@@ -1,0 +1,22 @@
+[
+  {
+    "institution": "Aarhus University",
+    "area": "PhD in Computational Linguistics",
+    "studyType": "PhD",
+    "start": "2022",
+    "end": "",
+    "gpa": "",
+    "courses": [],
+    "summary": "Doctoral research focusing on generative syntax and language acquisition."
+  },
+  {
+    "institution": "University of Nairobi",
+    "area": "Master's in Linguistics",
+    "studyType": "Master's",
+    "start": "2018",
+    "end": "2020",
+    "gpa": "",
+    "courses": [],
+    "summary": "Master's thesis exploring morphological analysis in Bantu languages."
+  }
+]
