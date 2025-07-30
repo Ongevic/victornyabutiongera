@@ -4,7 +4,7 @@ layout: page
 permalink: /about/
 ---
 <!-- Navigation -->
-<
+
 <details>
 <summary>Menu</summary>
 
