@@ -3,8 +3,17 @@ title: Contact
 layout: page
 permalink: /contact/
 ---
-<!-- Navigation -->
-[Home](/) | [About](/about/) | [Research](/research/) | [Publications](/publications/) | [Contact](/contact/)
+<details>
+<summary>Menu</summary>
+
+[Home](/)
+[About](/about/)
+[Tutorials](/tutorials/)
+[Publications](/publications/)
+[Contact](/contact/)
+
+</details>
+(
 
 # Contact
 
