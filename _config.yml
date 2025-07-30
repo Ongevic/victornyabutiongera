@@ -1,0 +1,16 @@
+title: Victor Nyabutiongera
+email: victor@university.edu
+description: >-
+  Academic portfolio of Victor Nyabutiongera.
+baseurl: ""
+url: ""
+
+# Use the minimal theme for GitHub Pages
+remote_theme: jekyll/minimal
+
+# Build settings
+markdown: kramdown
+
+# Exclude files
+exclude:
+  - README.md
