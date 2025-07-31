@@ -8,3 +8,34 @@ languageCode = "en-us"
     path = "github.com/eddiewebb/hugo-resume"
 
 enableRobotsTXT = true
+
+# Add new sections and social media placeholders
+sections = ["about", "research", "cv", "posters", "tutorials", "contact"]
+
+[params]
+  # Placeholder profile image path
+  profileImage = "img/profile.jpg"
+
+  # Show contact and social icons
+  showContact = true
+  showSocializations = true
+
+  # Choose a green-based theme and font size
+  theme_day = "emerald"
+  font_size = "m"
+
+  # Social media handles (placeholders)
+  [[params.handles]]
+    name = "Instagram"
+    link = "https://instagram.com/your_username"
+    icon = "instagram"
+
+  [[params.handles]]
+    name = "Facebook"
+    link = "https://facebook.com/your_username"
+    icon = "facebook"
+
+  [[params.handles]]
+    name = "LinkedIn"
+    link = "https://linkedin.com/in/your_username"
+    icon = "linkedin"
