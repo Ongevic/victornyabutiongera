@@ -6,3 +6,5 @@ languageCode = "en-us"
 [module]
   [[module.imports]]
     path = "github.com/eddiewebb/hugo-resume"
+
+enableRobotsTXT = true
